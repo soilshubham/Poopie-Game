@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{81630A12-175D-9CFB-C44F-081F69374D1E}</ProjectGuid>
+    <ProjectGuid>{C1BE0966-91B6-1230-3A02-EC9235606029}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -65,47 +65,50 @@
   <ItemGroup>
     <Compile Include="Assets\_scripts\BUTTONS.cs" />
     <Compile Include="Assets\_scripts\controlls.cs" />
+    <Compile Include="Assets\_scripts\cubesOnOff.cs" />
     <Compile Include="Assets\_scripts\gameplayCotroller.cs" />
     <Compile Include="Assets\_scripts\moving.cs" />
+    <Compile Include="Assets\_scripts\obstacleloader.cs" />
     <Compile Include="Assets\_scripts\spawner.cs" />
+    <Compile Include="Assets\_scripts\timer.cs" />
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/2D game #2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/Users/sahil/Desktop/Unity/Projects/poopie/poopie/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files (x86)/2019.2.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

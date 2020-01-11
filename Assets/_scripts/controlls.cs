@@ -8,7 +8,8 @@ public class controlls : MonoBehaviour
     public float jumpSpeed;
     public float moveSpeed;
     public float gravity;
-    private bool canmove = true;
+    public static bool canmove = true;
+    public static bool dead = false;
 
     public ParticleSystem explosion;
 
@@ -24,6 +25,7 @@ public class controlls : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0;
 
+        dead = false;
 
         retryMenu.SetActive(false);
         winMenu.SetActive(false);
@@ -52,6 +54,7 @@ public class controlls : MonoBehaviour
     {
         if(tar.gameObject.tag == "gameOver")
         {
+            dead = true;
             canmove = false;
             moving.canMove = false;
             gameplayCotroller.canPlayAudio = false;

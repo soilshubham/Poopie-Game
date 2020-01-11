@@ -9,8 +9,4 @@ public class spawner : MonoBehaviour
         
     }
 
-    void Update()
-    {
-        
-    }
 }
