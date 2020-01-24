@@ -6,27 +6,35 @@ public class gameplayCotroller : MonoBehaviour
 {
     public static bool canPlayAudio = true;
     public static bool death = false;
-    public AudioSource ad;
     public AudioSource deathSound;
+    public float lowPassValue;
+
+    public AudioLowPassFilter alpf;
+    public AudioSource bg;
     void Start()
     {
-        
+        alpf.cutoffFrequency = 22000f;
+        death = false;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (canPlayAudio)
-        {
-            ad.enabled = true;
-        }
-        else
-        {
-            ad.enabled = false;
-        }
+        StartCoroutine(cutOff());    
+    }
+    IEnumerator cutOff()
+    {
+        yield return new WaitForSeconds(0.2f);
         if (death)
         {
-            deathSound.enabled = true;
+            if (alpf.cutoffFrequency > 2000)
+            {
+                
+                alpf.cutoffFrequency -= 1000;
+            }
+            if(bg.volume > 0.2)
+            {
+                bg.volume -= 0.01f;
+            }
         }
     }
 }

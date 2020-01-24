@@ -59,7 +59,7 @@ public class controlls : MonoBehaviour
             moving.canMove = false;
             gameplayCotroller.canPlayAudio = false;
             retryMenu.SetActive(true);
-
+            gameplayCotroller.death = true;
 
         }
 

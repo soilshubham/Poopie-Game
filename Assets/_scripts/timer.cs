@@ -8,7 +8,8 @@ public class timer : MonoBehaviour
 
     public Text scoreDisplay;
     public int highscore = 0;
-    public Text percnt;
+    public Text percnt1;
+    public Text percnt2;
     public int currentPercnt;
     int ongoingpercent;
     void Start()
@@ -32,7 +33,8 @@ public class timer : MonoBehaviour
         {
         }
         scoreDisplay.text = "B E S T - " + PlayerPrefs.GetInt("lvl01HS") + "%";
-        percnt.text = currentPercnt + "%";
-        
+        percnt1.text = currentPercnt + "%";
+        percnt2.text = currentPercnt + "%";
+
     }
 }
